@@ -4,6 +4,7 @@ body {
 }
 
 body { 
+  background-color: $bg;
   @extend %rubik-400;
   font-size: 16px;
 
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 1800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
